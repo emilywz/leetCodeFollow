@@ -110,21 +110,21 @@ func countMinMax(nums []int) (int, int) {
 }
 
 func main() {
-	results := []int{
-		5, 7, 7, 8, 8, 10,
-	}
-	var result []int
 	//results := []int{
-	//  6, 2, 1, 7, 4, 5, 9, 8, 3,
+	//	5, 7, 7, 8, 8, 10,
 	//}
+	var result []int
+	results := []int{
+	 6, 2, 1, 7, 4, 5, 9, 8, 3,
+	}
 	fmt.Println(results)
 	//min, max := countMinMax(results)
 	//tmp := countSort(max, results)
-	//sortList(results)
+	sortList(results)
 	//for _, d := range results{
 	//	fmt.Printf("%d ", d)
 	//}
-	result = searchRange(results, 5)
+	//result = searchRange(results, 5)
 	//fmt.Println(results, "tmp", tmp, "min", min, "max", max, "result", result)
 	fmt.Println(results, "result", result)
 }
